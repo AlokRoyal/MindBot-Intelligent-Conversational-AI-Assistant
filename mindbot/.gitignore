@@ -1,0 +1,16 @@
+# Dependencies
+backend/venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data
+backend/data/uploads/*
+backend/data/faiss_index/*
+backend/data/processed/*
+
+# Docker
+*.log
